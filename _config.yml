@@ -1,0 +1,8 @@
+# Site settings
+title: Jeffrey Scott
+name: Jeffrey Scott
+description: Research on efficient and reliable machine learning systems
+baseurl: ""
+url: ""
+theme: academic-pages
+markdown: kramdown

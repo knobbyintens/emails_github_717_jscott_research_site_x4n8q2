@@ -1,0 +1,9 @@
+{% assign post = include.post %}
+<div class="archive__item">
+  <h2 class="archive__item-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+  {% if post.excerpt %}<p class="archive__item-excerpt">{{ post.excerpt }}</p>{% endif %}
+  <p class="archive__item-venue">{{ post.venue }}</p>
+  {% if post.codeurl %}
+    <a class="btn btn--info" href="{{ post.codeurl }}" target="_blank" rel="noopener">Code</a>
+  {% endif %}
+</div>
